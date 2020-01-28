@@ -97,24 +97,80 @@ a {
 	background: #f2f2f2;
 	left: 0;
 	right: 0;
-	bottom: -200px;
+	bottom: -500px;
 	margin: auto;
 }
 
-.container .row-1.product {
+.container .row-1.product-1,
+.container .row-1.product-2 {
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 10px;
 }
 
-.container .row-1.product .col-1 {
-	width: 33.33%;
+.container .row-1.product-1 .col-1.texto {
+	width: 45%;
 	color: black;
+	overflow: hidden;
+
+}
+.container .row-1.product-1 .col-1.img-1{
+	width: 20%;
+	color: black;
+	overflow: hidden;
+}
+.container .row-1.product-1 .col-1.banner-2{
+	width: 35%;
+	color: black;
+	overflow: hidden;
 }
 
-.container .row-1.product .col-2 {
-	width: 25%;
+.container .row-1.product-2 .col-2 {
+	width: 21%;
 	color: black;
+	overflow: hidden;
+	margin: 0% 2%;
+	border: 1px solid #e2dada;
 }
+
+.col-1.banner-2{
+	background: #e80000d9;
+}
+
+.col-1.banner-2 .offer-description{
+	text-align: center;
+	color: #fff;
+	margin:25% 5px;
+	border: 1px solid #fff;
+}
+
+.text-btn{
+	text-align: center;
+	background: #e2dada;
+	padding-top: 10px;
+	margin:0px 2px;
+}
+.text-btn span,
+.text-btn a {
+	display: block;
+	margin-top: 7px;
+}
+
+.boton{
+	background: #ab0202;
+	padding: 5px 0px;
+	color: #fff;
+	width: 80%;
+	margin: auto;
+}
+
+/*Inicio imagenes de productos:*/
+.container .row-1.product-1 img,
+.container .row-1.product-2 img{
+	max-width: 100%;
+	
+}
+
 
 
 /* .row.product.shop col {
