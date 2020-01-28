@@ -1,116 +1,126 @@
+/*estilos generales*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 16px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
+/*fin de estilos generales*/
 
+/*Contenedor de imagen para carrousel*/
 .img-container {
-    position: relative;
-    background-image: url("../images/img-1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left;
-    ;
-    width: 100%;
-    height: 120vh;
+	position: relative;
+	background-image: url("../images/img-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+	;
+	width: 100%;
+	height: 120vh;
 }
 
+/*seccionando en filas y columnas usando flex-box*/
 .img-container .row {
-    position: absolute;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
-    background: #f2f2f2f0;
-    padding: 20px;
-    color: white;
+	position: absolute;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	background: #f2f2f2f0;
+	padding: 20px;
+	color: white;
 }
 
 .col {
-    width: 50%;
-    margin: auto;
+	width: 50%;
+	margin: auto;
 }
+/*fin de filas y columnas*/
 
+/*Accediendo a los li menu de navegacion*/
 .img-container nav li {
-    display: inline-block;
-    margin-right: 20px;
+	display: inline-block;
+	margin-right: 20px;
 }
 
+/*agregando border para logo*/
 .logo a {
-    color: #000;
-    border-bottom: 2px solid #000;
-    font-weight: 700;
+	color: #000;
+	border-bottom: 2px solid #000;
+	font-weight: 700;
 }
 
+/*agregando border para menu de navegacion*/
 .col .nav-menu-1 {
-    margin-bottom: 10px;
-    border-bottom: 1px solid #000;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #000;
 }
+
 
 .container-big-picture {
-    position: absolute;
-    width: 40%;
-    background: #f2f2f2;
-    top: 200px;
+	position: absolute;
+	width: 40%;
+	background: #f2f2f2;
+	top: 200px;
 }
 
+/*Inicio de productos*/
 .container-o {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    max-width: 800px;
-    width: 90%;
-    background: #f2f2f2;
-    left: 0;
-    right: 0;
-    bottom: 50px;
-    margin: auto;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	max-width: 800px;
+	width: 90%;
+	background: #f2f2f2;
+	left: 0;
+	right: 0;
+	bottom: 50px;
+	margin: auto;
 }
 
 .container-o .col {
-    width: 25%;
-    padding: 40px 10px;
+	width: 25%;
+	padding: 40px 10px;
 }
 
 
 /* Lo que corresponde */
 
 .container {
-    position: absolute;
-    max-width: 800px;
-    width: 90%;
-    background: #f2f2f2;
-    left: 0;
-    right: 0;
-    bottom: -200px;
-    margin: auto;
+	position: absolute;
+	max-width: 800px;
+	width: 90%;
+	background: #f2f2f2;
+	left: 0;
+	right: 0;
+	bottom: -200px;
+	margin: auto;
 }
 
 .container .row-1.product {
-    display: flex;
-    flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
 .container .row-1.product .col-1 {
-    width: 33.33%;
-    color: black;
+	width: 33.33%;
+	color: black;
 }
 
 .container .row-1.product .col-2 {
-    width: 25%;
-    color: black;
+	width: 25%;
+	color: black;
 }
 
 
 /* .row.product.shop col {
     margin-top: 20px;
     width: 25%;
-} */
+    } */
 
 
 /* Fin */
